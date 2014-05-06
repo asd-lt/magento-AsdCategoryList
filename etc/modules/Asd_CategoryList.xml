@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Asd_CategoryList>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Cms />
+            </depends>
+        </Asd_CategoryList>
+    </modules>
+</config>

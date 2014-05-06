@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Asd_CategoryList>
+            <version>0.1</version>
+        </Asd_CategoryList>
+    </modules>
+    <global>
+        <helpers>
+            <categorylist>
+                <class>Asd_CategoryList_Helper</class>
+            </categorylist>
+        </helpers>
+        <blocks>
+             <categorylist>
+                <class>Asd_CategoryList_Block</class>
+             </categorylist>
+        </blocks>
+    </global>
+</config>

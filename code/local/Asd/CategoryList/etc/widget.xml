@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<widgets>
+    <categorylist_categorylist type="categorylist/categorylist">
+        <name>Categories Listing</name>
+        <description type="desc">Adds a simple category list</description>
+    </categorylist_categorylist>
+</widgets>
