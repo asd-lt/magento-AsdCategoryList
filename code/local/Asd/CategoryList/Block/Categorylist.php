@@ -18,6 +18,7 @@ class Asd_CategoryList_Block_Categorylist extends \Mage_Core_Block_Abstract impl
             $parentCategory = Mage::getModel('catalog/category')->load( $currentCategoryId );
             $childCategories = $parentCategory->getChildrenCategories()->addIsActiveFilter();
             if( $childCategories->count() > 0 ) {
+                $currentCategoryId = $currentCategory->getId();
                 $html .= '<nav><ul>';
                 foreach( $childCategories as $category ) {
                     $class = $currentCategoryId == $category->getId() ? ' class="active"' : '';
